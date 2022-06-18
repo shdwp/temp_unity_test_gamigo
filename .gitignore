@@ -1,0 +1,38 @@
+# General
+/Builds/
+/Library/
+/Logs/
+/Obj/
+/Temp/
+/UserSettings/
+
+# Asset bundles folder * metadata.
+!/Assets/StreamingAssets/
+!/Assets/StreamingAssets.meta
+/Assets/StreamingAssets/*
+!/Assets/StreamingAssets/google-services-desktop.json
+!/Assets/StreamingAssets/google-services-desktop.json.meta
+
+# Unity
+mono_crash.*
+
+# Firebase
+remote_config_data
+
+# Visual Studio
+*/.vscode/
+
+# Rider
+.idea/
+ProjectSettings/RiderScriptEditorPersistedState.asset
+
+# C#
+*.csproj
+*.sln
+*.dotsettings
+*.dotsettings.user
+
+# OS
+.DS_Store*
+[Tt]humbs.db
+[Dd]esktop.ini
